@@ -1,0 +1,152 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;   
+}
+
+.hero {
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-title {
+    font-size: 25px;
+    color: white;
+    background: #1D3557;
+    padding: 7px 7px;
+    border-radius: 10px;
+    margin-top: 60px;
+    font-weight: 600;
+}
+
+#hero-bio {
+   font-size: 15px;
+    color: white;
+    width: 350px; 
+    margin-top: 0px;
+    background: #457B9D;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.body {
+    background-color: #F1FAEE; 
+    display: flex;
+    flex-direction: column;
+}
+
+#activities-title {
+    margin: 50px;
+    color: #1D3557;
+    font-size: 1.5em;
+}
+
+.activities-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -70px;
+}
+
+.activities {
+    width: 200px;
+    margin-bottom: 80px;
+    padding: 40px 40px 40px 40px;
+    background-color: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+    margin-top: -25px;
+   align-items: center;
+}
+
+
+.activities-img {
+    border-radius: 50%;
+    display: block;
+}
+
+.activities-head {
+    color: #1D3557;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.activities-subhead {
+    color: #1D3557;
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+.guide {
+    width: 400px;
+    margin: 60px auto 60px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #A8DADC;
+    color: #2b2839;
+    border-bottom: 6px solid #1D3557; 
+    border-radius: 20px;   
+}
+
+.card {
+  margin: 20px;
+}
+
+#per {
+    width: 200px;
+    border-radius: 20px;
+}
+
+#card-title {
+    color: #1D3557;
+    font-weight: 550;
+    font-size: 22px;
+}
+
+#card-description {
+    color: #1D3557;
+    font-weight: 200;
+    font-style: italic;
+}
+
+#card-name {
+    color: #1D3557;
+    font-weight: 545;
+}
+
+
+
+/*  background: #F1FAEE;
+    padding: 10px 0 40px 0;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px; /*
